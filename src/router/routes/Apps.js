@@ -14,10 +14,23 @@ export default [
     component: lazy(() => import('../../pages/about')),
   },
   {
+    path: '/settings',
+    exact: true,
+    public: true,
+    component: lazy(() => import('../../pages/settings')),
+  },
+  {
     path: '/login',
     exact: true,
     public: true,
     component: lazy(() => import('../../pages/login')),
+    layout: 'BlankLayout'
+  },
+  {
+    path: '*',
+    exact: true,
+    public: true,
+    component: lazy(() => import('../../pages/404')),
     layout: 'BlankLayout'
   },
   
