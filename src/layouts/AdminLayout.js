@@ -18,7 +18,7 @@ function AdminLayout({ children }) {
                     />
                   </NavLink>
                 </div>
-                <div className="hidden md:block">
+                <div className="">
                   <div className="ml-10 flex items-baseline space-x-4">
                     <NavLink
                       to="/"
@@ -49,6 +49,9 @@ function AdminLayout({ children }) {
                     </NavLink>
                   </div>
                 </div>
+              </div>
+              <div>
+                <p className="text-gray-300 font-semibold">Thanh Nhã</p>
               </div>
             </div>
           </div>
