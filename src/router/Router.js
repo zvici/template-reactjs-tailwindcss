@@ -2,7 +2,7 @@
 import React from 'react'
 
 // ** Loading
-import Loader from '../components/spinner/Loader'
+import Loader from '../components/Spinner/Loader'
 
 // ** Router Components
 import { BrowserRouter as AppRouter, Route, Switch } from 'react-router-dom'

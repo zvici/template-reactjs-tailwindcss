@@ -1,6 +1,5 @@
 // ** Handle User Login
 export const handleLogin = (data) => {
-  console.log(data)
   return (dispatch) => {
     dispatch({
       type: 'LOGIN',
